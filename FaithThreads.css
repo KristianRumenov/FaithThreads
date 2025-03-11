@@ -1,0 +1,290 @@
+/* General Styles */
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Poppins", sans-serif;
+  text-align: center;
+  box-sizing: border-box;
+  color: #333333;
+}
+
+.Background {
+  background-color: #111111;
+}
+
+.Background h2 {
+  margin-top: 20px;
+  font-size: 35px;
+}
+
+/* Navigation Bar */
+header {
+  position: absolute;
+  top: 0;
+  width: 100%;
+  z-index: 1000;
+  font-weight: bold;
+  background: rgba(0, 0, 0, 0);
+  padding: 10px 0;
+}
+
+header a {
+  transition: 0.3s;
+}
+
+header a:hover {
+  color: #ffffff;
+}
+
+nav ul {
+  list-style-type: none;
+}
+
+nav ul li {
+  display: inline;
+  margin: 0 15px;
+}
+
+nav ul li a {
+  color: #333333;
+  text-decoration: none;
+  font-size: 18px;
+}
+
+nav ul li a:hover {
+  text-decoration: underline;
+}
+
+/* Button */
+.button {
+  border: 3px solid #333333;
+  text-transform: uppercase;
+  color: #333333;
+  font-size: 25px;
+  padding: 10px 10px;
+  border-radius: 20px;
+  font-weight: bold;
+  text-decoration: none;
+  transition: 0.3s;
+}
+
+.button:hover {
+  color: #ffffff;
+  border: 3px solid #ffffff;
+}
+
+/* Banner */
+.banner {
+  width: 100%;
+  height: 100vh;
+  overflow: hidden;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+}
+
+.banner video {
+  position: absolute;
+  object-fit: cover;
+  width: 100%;
+  height: 100%;
+  pointer-events: none;
+}
+
+.banner .content {
+  position: relative;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.content h1 {
+  font-size: 70px;
+  text-transform: uppercase;
+  color: #333333;
+  transition: 0.3s;
+}
+
+.content h2 {
+  font-size: 50px;
+  text-transform: uppercase;
+  color: #333333;
+  margin-bottom: 15px;
+  transition: 0.3s;
+}
+
+.content p {
+  font-size: 25px;
+  color: #333333;
+  margin-bottom: 30px;
+  transition: 0.3s;
+}
+
+/* Product */
+.Product img {
+  height: 300px;
+  border: solid 5px #333333;
+  border-radius: 30px;
+  box-shadow: #333333 5px 10px 15px;
+  margin: 15px 15px;
+  transition: 0.3s;
+}
+
+.Product img:hover {
+  transform: scale(1.01);
+  width: auto;
+  border: solid 5px #ffffff;
+  border-radius: 10px;
+  box-shadow: #333333 5px 10px 15px;
+}
+
+/* Container */
+.Container1 {
+  display: flex;
+  justify-content: center;
+  align-items: baseline;
+  flex-wrap: wrap;
+  gap: 1em;
+}
+
+.product-wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
+  border: 5px solid #333333;
+  border-radius: 10px;
+  box-shadow: 5px 10px 15px #111111;
+  background-color: #202020;
+  margin: 20px auto;
+  width: 90%;
+}
+
+p {
+  font-size: 30px;
+  color: #ffffff;
+  margin-bottom: 30px;
+}
+
+/* About Us Section */
+.about-us-section {
+  background-color: #202020;
+  border: 5px solid #202020;
+  box-shadow: 5px 10px 15px #111111;
+  padding: 20px;
+  margin: 20px auto;
+  width: 80%;
+  border-radius: 10px;
+}
+
+.about-us-section h2 {
+  color: #ffffff;
+  font-size: 35px;
+  margin-bottom: 20px;
+}
+
+.about-us-section p {
+  color: #ffffff;
+  font-size: 18px;
+  margin-bottom: 20px;
+  line-height: 1.6;
+  padding: 0 20px;
+}
+
+.about-us-section ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.about-us-section li {
+  color: #ffffff;
+  font-size: 18px;
+  margin-bottom: 10px;
+  padding: 10px;
+  background-color: #333333;
+  border-radius: 5px;
+}
+
+.about-us-section li strong {
+  color: #f3f3f3;
+}
+
+/* Contact Section */
+.contact-section {
+  background-color: #202020;
+  border: 5px solid #202020;
+  box-shadow: 5px 10px 15px #111111;
+  padding: 20px;
+  margin: 20px auto;
+  width: 80%;
+  border-radius: 10px;
+}
+
+.contact-section h2 {
+  color: #ffffff;
+  font-size: 35px;
+  margin-bottom: 20px;
+}
+
+.contact-section form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.contact-section label {
+  color: #ffffff;
+  font-size: 18px;
+  margin: 10px 0;
+}
+
+.contact-section input,
+.contact-section textarea {
+  width: 80%;
+  padding: 10px;
+  margin: 10px 0;
+  border: 2px solid #333333;
+  border-radius: 5px;
+  font-size: 16px;
+}
+
+.contact-section button {
+  background-color: #333333;
+  color: #ffffff;
+  font-size: 18px;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.contact-section button:hover {
+  background-color: #ffffff;
+  color: #333333;
+}
+
+/* Footer */
+footer {
+  background-color: #333333;
+  padding: 20px 0;
+  color: #ffffff;
+}
+
+footer p {
+  margin-bottom: 10px;
+}
+
+footer .social-icons {
+  display: flex;
+  justify-content: center;
+}
+
+footer .social-icons a {
+  margin: 0 10px;
+}
+
+footer .social-icons img {
+  width: 30px;
+  height: 30px;
+}
